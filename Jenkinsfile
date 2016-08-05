@@ -8,5 +8,5 @@ node {
    // Mark the code build 'stage'
    stage 'Build'
    // Run the build
-   sh cat hello
+   sh "cat hello"
  }
